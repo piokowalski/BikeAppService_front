@@ -1,9 +1,3 @@
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -55,10 +49,10 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
+    line-height: 1.7;
+    color: #1a171c;
     text-align: left;
-    background-color: #fff
+    background-color: #859098
 }
 
 [tabindex="-1"]:focus {
@@ -357,7 +351,7 @@ template {
 }
 
 .lead {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 300
 }
 
@@ -10153,13 +10147,6 @@ a.text-dark:focus, a.text-dark:hover {
     }
 }
 
-body {
-    background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
 @media (min-width: 992px) {
     .animate {
@@ -10206,9 +10193,4 @@ body {
 }
 
 /* Other styles for the page not related to the animated dropdown */
-
-body {
-    background: #007bff;
-    background: linear-gradient(to right, #0062E6, #33AEFF);
-}
 /*# sourceMappingURL=bootstrap.min.css.map */
