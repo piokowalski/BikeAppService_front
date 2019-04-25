@@ -1,0 +1,14 @@
+html {
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#262625));
+    background: -moz-linear-gradient(top, #fff, #3c3c3b);
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #686967 !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#262625));
+    background: -moz-linear-gradient(top, #fff, #3c3c3b);
+}
