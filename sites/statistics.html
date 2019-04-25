@@ -86,19 +86,46 @@
             <div class="card-body p-5">
                 <div style="height: 500px">
                     <center>
-                        <h1>
-                            Site prepared for
+                        <div class="shadow-sm col-7">
                             <br>
-                            <strong>Statistics of bikes and stations amount</strong>
+                        <h3>Check how many stations You can find in:</h3>
                             <br>
-                            feature.
-                        </h1>
-                        <br>
-                        <br>
+
+                        </div>
+                        <br><br>
+                        <select class="browser-default custom-select col-3">
+                            <option selected>Select country</option>
+                            <option value="1">Poland</option>
+                            <option value="2">Examplecountry</option>
+                        </select>
+                        <select class="browser-default custom-select col-3">
+                            <option selected>Select city</option>
+                            <option value="1">Examplowo</option>
+                            <option value="2">Examplecity</option>
+                        </select>
+                        <br><br>
+                    <table id="statistics" class="table table-bordered table-responsive-md table-dark shadow-lg" style="width:100%">
+                        <thead class="thead-light">
+                        <tr>
+                            <th>Country</th>
+                            <th>City</th>
+                            <th>Stations</th>
+                            <th>All bikes available</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Poland</td>
+                            <td>Examplowo</td>
+                            <td>69</td>
+                            <td>666</td>
+
+                        </tr>
+                        </tbody>
+
+                    </table>
 
                     </center>
-
-
                 </div>
             </div>
         </div>
